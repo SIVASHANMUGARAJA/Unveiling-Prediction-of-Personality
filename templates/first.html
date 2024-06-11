@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PERSONALITY PREDICTION</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='styles/min.css')}}">
+
+<body>
+    <div class="containers" id="Home">
+            
+        <img src="https://cdn-icons-png.flaticon.com/512/2072/2072148.png"/>
+        <p3>Unveiling Personality By Traits
+        <p4><a href="#Home">HOME</a>
+            <a href="#about">ABOUT TRAITS</a>
+            <a href="#contact">CONTACT</a>
+            <a href="{{ url_for('signup') }}">SIGN UP</a>
+        </p4>
+        </p3>
+    </div>
+
+
+<div class="main">
+    <img src="{{url_for('static', filename='assets/personal.png')}}" width="50%" height="600px"/>
+    <p>What is Personality ??, <br>and Traits !!. <br>
+    <span>Personality is the combination of qualities, traits, and behaviors that make a person unique, influencing how they think, feel, and interact with others.
+    </span>
+    <br>
+
+<button type="submit"><a href="{{ url_for('login') }}" style="color: black;">LOGIN NOW</a></button>
+</p>
+</div>
+<div class="color" id="about">
+    <h1><font color="red"><u>ABOUT TRAITS</u></font></h1>
+
+<div class="section">
+<div class="column1">
+    <img src="{{url_for('static', filename='assets/open.jpg')}}" width="380px" height="250px"/>
+    <h2>OPPENNESS</h2>
+    <p2>This dimension reflects the tendency to be open-minded, imaginative, and curious about the world. Individuals high in openness are often creative, adventurous, and willing to try new things. Those low in openness may be more conventional, practical, and prefer routine.</p2>
+</div>  
+<div class="column2">
+    <img src="{{url_for('static', filename='assets/cons.jpg')}}" width="380px" height="250px"/>
+
+    <h2>CONSCIENTIOUSNESS</h2>
+    <p2>Conscientiousness refers to the degree of organization, responsibility, and self-discipline a person has. High conscientious individuals are reliable, organized, and goal-oriented, while those low in conscientiousness may be more spontaneous, and less focused on planning.</p2>
+</div>  
+<div class="column3">
+    <img src="{{url_for('static', filename='assets/extra.jpg')}}" width="380px" height="250px"/>
+
+    <h2>EXTRAVERSION</h2>
+    <p2>Extraversion captures the level of sociability, assertiveness, and enthusiasm a person exhibits. Extraverts tend to be outgoing, energetic, and enjoy social interactions, whereas introverts are more reserved, reflective, and prefer solitude or smaller group settings. 
+    </p2>
+</div>  
+</div>
+
+<div class="section">
+<div class="column4">
+    <img src="{{url_for('static', filename='assets/agree.jpg')}}" width="380px" height="250px"/>
+
+    <h2>AGREABLENESS</h2>
+    <p2>Agreeableness reflects the tendency to be compassionate, cooperative, and empathetic towards others. Individuals high in agreeableness are generally trusting, altruistic, and prioritize harmonious relationships, while those low in agreeableness may be more skeptical, competitive, or less concerned with others' welfare.
+    </p2>
+</div>  
+<div class="column5">
+    <img src="{{url_for('static', filename='assets/neuro.jpg')}}" width="380px" height="250px"/>
+
+    <h2>NEUROTICISM</h2>
+    <p2>Neuroticism refers to the degree of emotional instability, anxiety, and negative affect a person experiences. High neurotic individuals are prone to experiencing stress, worry, and mood swings, while low neurotic individuals are typically more emotionally stable, resilient, and able to cope with adversity effectively.
+    </p2>
+</div>  
+
+</div>  
+</div>
+</div>
+<div class="contact" id="contact">
+    <h1>CONTACT FORM</h1>
+    <div class="container">
+        <form>
+          <label for="fname"><h2>First Name</h2></label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      
+          <label for="lname"><h2>Last Name</h2></label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      
+          <label for="lname"><h2>Email</h2></label>
+          <input type="text" id="email" name="email" placeholder="Your Email..">
+      
+          <label for="country"><h2>Country</h2></label>
+          <select id="country" name="country">
+            <option value="australia">Select</option>
+            <option value="australia">Australia</option>
+            <option value="australia">India</option>
+            <option value="australia">Europe</option>
+            <option value="canada">Canada</option>
+            <option value="usa">USA</option>
+            <option value="australia">China</option>
+            <option value="australia">Portugese</option>
+            <option value="australia">Mexico</option>
+          </select>
+      
+          <label for="subject"><h2>Subject</h2></label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      
+        <div class="submit">
+          <input type="submit" onclick="alert('! Your Form Submitted Successfully !')" value="Submit">
+        </form>
+        </div>
+      </div>
+</div>
+<table width="100%" cellspacing="0" cellpadding="0" bgcolor="black">
+    <tr>
+        <td>
+            <div><br><br>
+                <center>
+                <font size="5.9" face ="Georgia" color="white">
+                <p7> &copy; 2024 Unveiled Personality Traits. All rights reserved.</p7>
+                </center></font>
+            </div>
+<br><br>
+        </td>
+    </tr>
+</table>
+
+</body>
+</html>
