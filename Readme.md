@@ -1,5 +1,7 @@
 # Readme.md
 
+# What is Personality Prediction ??
+Personality prediction refers to the process of assessing and predicting an individual's personality traits, characteristics, or tendencies using various methods and tools. This can be done through psychological assessments, behavioral analysis, data analytics, and machine learning algorithms. 
 # Running the Server
 In the project directory, you can run:
 
@@ -17,10 +19,16 @@ Install modules from requirements.txt using:
 ## pip install -r requirements.txt
 
 ## Homepage
-<img src="">
+<img src="https://github.com/SIVASHANMUGARAJA/Unveiling-Prediction-of-Personality/blob/main/Snapshots/Homepage.png">
+
+## Midpage
+<img src="https://github.com/SIVASHANMUGARAJA/Unveiling-Prediction-of-Personality/blob/main/Snapshots/Homepage1.png">
 
 ## Login Page
-<img src="">
+<img src="https://github.com/SIVASHANMUGARAJA/Unveiling-Prediction-of-Personality/blob/main/Snapshots/Login.png">
 
 ## SignUp Page
-<img src="">
+<img src="https://github.com/SIVASHANMUGARAJA/Unveiling-Prediction-of-Personality/blob/main/Snapshots/signup.png">
+
+## Processing Result
+<img src="https://github.com/SIVASHANMUGARAJA/Unveiling-Prediction-of-Personality/blob/main/Snapshots/op%20process.png">
